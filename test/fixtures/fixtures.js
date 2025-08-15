@@ -81,7 +81,7 @@ const tableOutput = Object.setPrototypeOf(Object.assign([
 ], {
 	options: {
 		...expectedOptions,
-		head: ['Repository', 'Access\nCodeOfConduct', 'DefBranch', 'SecurityPolicyEnabled', 'RequiredBranchProtectionSourcePercentage'],
+		head: ['Repository', 'Access\nCodeOfConduct', 'DefBranch', 'SecurityPolicyEnabled', 'RequiredBranchProtectionSourcePercentage', 'RequireLastPushApproval'],
 	},
 }), Table.prototype);
 
